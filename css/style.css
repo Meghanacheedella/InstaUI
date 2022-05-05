@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+}
+.search{
+    width: 100%;
+    height: 60px;
+    padding: 0px 200px;
+    border-top: 1px solid rgb(214, 207, 207);
+    border-bottom: 1px solid rgb(214, 207, 207);
+}
+.ig-img{
+    padding: 8px 0 0 0;
+}
+.search-button{
+    width: 300px;
+    padding: 10px 10px;
+    margin-left: 240px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 8px;
+    text-align: start;
+}
+.like{
+    margin-left: 20px;
+    cursor: pointer;
+    width: 24px;
+}
+.add-post{
+    margin-left: 20px;
+    cursor: pointer;
+    width: 24px;
+}
+.home{
+    margin-left: 80px;
+    cursor: pointer;
+    width: 28px;
+}
+.story{
+     margin-left: 280px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     border:1px solid rgb(214, 207, 207);
+     width: 50%;
+     height: 80px;
+} 
+.story-img{
+    width: 70%;
+    height: 68%;
+    margin-left:  2px;
+    border-radius: 50%;
+    border: 3px solid #F58529;
+    position:overflow;
+    cursor: pointer;
+}
+.story-img2{
+    margin: 5px;
+    width: 6%;
+    height: 70%;
+    margin-top: 5px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.posts-head{
+    background-color: white;
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+}
+.posts{
+    width: 50%;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    border:1px solid rgb(214, 207, 207);
+    width: 50%;
+    height: 580px;
+    overflow: auto;
+}
+.pos{
+    width: 100%;
+    height: 100%;
+}
+.pro{
+    width: 50%;
+    margin-top: 15px;
+    border:none;
+    position: fixed;
+    margin-left: 1080px;
+    color: rgb(122, 117, 117);
+}
+.switch{
+    width: 50%; 
+    margin-top: -65px;
+    border:none;
+    position: fixed;
+    margin-left: 1080px;
+    color: rgb(122, 117, 117);  
+}
+/* .pro-img{
+    width: 12%;
+    border-radius: 50%;
+} */
+.post-img{
+    width:100%;
+    height: 100%;
+}
+.story{
+    display: flex;
+}
+/* .story-main{
+    display: flex;
+} */
+.contain{
+    display: flex;
+   
+}
+.story-img3{
+    margin-top: 15px;
+    width: 6%;
+    height: 50%;
+    border-radius: 50%;
+}
+.pro-suggest{
+    display: flex;
+    align-items: center; 
+    color: black;
+}
+.pro-suggest h4{
+    margin-left: 25px;
+}
+.newones{
+    display: flex;
+    justify-content: start;
+}
+.follow{
+    text-decoration: none;
+    color:#0095F6;
+    margin-left: 70px;
+}
